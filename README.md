@@ -18,3 +18,6 @@
 # 建置步驟：
 1.	取得line notify的token，並架設紅外線感測器，程式可參考PIR_SIMPLE.py
 2.	Web Server是透過Flask架設，Web Server及監控程式可參考app.py及camera.py及templates底下的index.html
+
+# 影片
+https://youtu.be/ic1j1oKyvjQ
