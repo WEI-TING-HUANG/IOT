@@ -19,5 +19,12 @@
 1.	取得line notify的token，並架設紅外線感測器，程式可參考PIR_SIMPLE.py
 2.	Web Server是透過Flask架設，Web Server及監控程式可參考app.py及camera.py及templates底下的index.html
 
+# 照片
+外表<br/>
+<img width="416" alt="image" src="https://github.com/WEI-TING-HUANG/IOT/assets/155205404/d55427dc-d306-45da-b22f-f78c7870f514">
+<br/>
+內部長像<br/>
+<img width="416" alt="image" src="https://github.com/WEI-TING-HUANG/IOT/assets/155205404/0b5cce1a-34eb-461c-9e34-949ff04c9e30">
+
 # 影片
 https://youtu.be/ic1j1oKyvjQ
