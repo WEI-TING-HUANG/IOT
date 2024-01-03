@@ -1,10 +1,22 @@
 <html>
 	<head>
 		<title>test</title>
+		<script>
+            function vidioFunction() {
+                window.open("/video_feed", "videoFeedWin");
+            }
+            function soundFounction() {
+                form1.submit();
+            }
+		</script>
 	</head>
 	<body>
-		<h3>
-            test page
-		</h3>
+		<input type="button" value="VEDIO" onclick="vidioFunction()" />
+		{% if sound_flag == 0: %}
+		<input type="button" value="SOUND ON" onclick="soundFounction()" />
+		{% else %}
+		<input type="button" value="SOUND OFF" onclick="soundFounction()" />
+		{% endif %}
+		<form id="form1" name="form1" method="get" action="/sound_feed"/>
 	</body>
 </html>
